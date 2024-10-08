@@ -1,0 +1,106 @@
+
+
+.not-taken {
+    background-color: white;
+}
+
+.currently-taken {
+    background-color: yellow;
+}
+
+.already-taken {
+    background-color: skyblue;
+}
+
+
+.username-head{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.topCurriculum{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+}
+/* Table */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    box-shadow: 0px 1px 3px -1px #959595;   
+    border: .5px ridge #646464;
+    padding: 15px;
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 900;
+}
+
+/* Table head */
+.table-title {
+  
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(88, 156, 236);
+    height: 40px;
+    padding: 10px 5px;
+    color: white;
+}
+/* Table subhead or field */
+.table-head {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(232,228,228);
+    padding: 10px;
+    height: 30px;
+}
+
+table td{
+   
+    border: 1px solid #3f3832;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 12px;
+}
+table tr{
+    border: 1px solid black;
+    padding: 12px;
+}
+
+/* Notice section */
+.notice {
+    padding: 10px;
+    background-color: #2C5F2D;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    box-shadow: 0px 4px 16px -4px #2C5F2D;
+}
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    background-color: whitesmoke;
+}
+
+
+/* Print button */
+.print-button{
+    width: 13px;
+    height: 13px;
+    float:right;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 3px;
+    padding: 6px;
+    background-color: #ffffff;
+    filter: grayscale(100%) brightness(80%);
+}
+/* Hover */
+.print-button:hover{
+    filter: brightness(90%);
+    border: 1px solid #1f1f1f;
+} 
+
